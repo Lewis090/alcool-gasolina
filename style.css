@@ -18,13 +18,11 @@ div {
 
 
 #resultado {
-    text-align: justify;
     font-family: 'Arial';
     width: 30%;
     height: 3%;
     font-size: 18px;
     font-weight: normal;
-    background-color: black;
     padding: 3% 35%;
 }
 #tudo{
