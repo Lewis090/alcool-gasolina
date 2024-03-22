@@ -7,21 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="titulo">
-        <h1>Alcool ou Gasolina ?</h1>
+    <div id="tudo">
+        <div id="titulo">
+            <h1>Alcool ou Gasolina ?</h1>
+        </div>
+        <div id="x2">
+            Qual o valor da Gasolina ? <input type="text" id="gasolina" class="input">
+        </div>
+        <div id="x1">
+            Qual o valor do Alcool ? <input type="text" id="alcool" class="input">
+        </div>
+        <div id="x3">
+            <button type="submit" id="calc" onclick="calcular()">Calcular</button>
+        </div>
+        <div id="resultado">
+            <output type="text" id="resultado"></output>
+        </div>
     </div>
-    <div id="x2">
-        Qual o valor da Gasolina ? <input type="text" id="gasolina" class="input">
-    </div>
-    <div id="x1">
-        Qual o valor do Alcool ? <input type="text" id="alcool" class="input">
-    </div>
-    <div id="x3">
-        <button type="submit" id="calc" onclick="calcular()">Calcular</button>
-    </div>
-    <div id="resultado">
-        <output type="text" id="resultado"></output>
-    </div>
+   
 </body>
 <script src="script.js"></script>
 </html>

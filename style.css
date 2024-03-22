@@ -1,5 +1,6 @@
 html {
-    background-color: aliceblue;
+    background-color: rgb(67, 99, 128);
+    padding: 3% 30%;
 }
 
 div {
@@ -11,24 +12,27 @@ div {
 .input {
     width: 35px;
     height: 25px;
+    border: solid rgb(30, 255, 143);
+    border-radius: 15%;
 }
 
-#calc {
-    background-color: greenyellow;
-    border-radius: 35px;
-    width: 80px;
-    height: 25px;
-    box-shadow: gray;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    position: center;
-}
 
 #resultado {
     text-align: justify;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 300px;
-    height: 350px;
+    font-family: 'Arial';
+    width: 30%;
+    height: 3%;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: normal;
+    background-color: black;
+    padding: 3% 35%;
+}
+#tudo{
+    border: solid 2px rgb(204, 16, 148);
+    width: 500px;
+    height: 500px;
+
+}
+#titulo{
+    padding: 0% 70px;
 }
